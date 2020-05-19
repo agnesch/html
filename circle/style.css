@@ -1,0 +1,36 @@
+body{
+    background-color: grey;
+}
+.circle{
+    width: 40vh;
+    height: 40vh;
+    background-color: aqua;
+    border-radius: 50%;
+    border-bottom: 120px solid red;
+    border-left: 120px solid orange;
+    border-right: 120px solid blue;
+    border-top: 120px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 10s ease, border 3s ease-in-out, background-color 10s ease;
+}
+.active{
+    cursor: pointer;
+    transform: rotate(3690deg);
+    border-bottom-color: indianred;
+    border-left-color: darkcyan;
+    border-right-color: cadetblue;
+    border-top-color: coral;
+    background-color: darkgray;
+    
+}
+button{
+    background-color: hotpink;
+    color: honeydew;
+    width: 200px;
+    height: 20px;
+    display: block;
+    margin: 20px auto;
+    border: 30%;
+    border-radius: 30%;
+}
